@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+    <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>website pribadi saya</title>
+<link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+<div class="header">
+<header>
+    <h2>SELAMAT DATANG DALAM WEBSITE SAYA</h2>
+    <p>MUHAMMAD RIFQI ALFARISI</p>
+</header>
+</div>
+
+<div class="menu">
+<nav>
+    <a href="#">Beranda</a>
+    <a href="#">Tentang</a>
+    <a href="#">Produk</a>
+    <a href="#">Harga</a>
+  </nav>
+</div>
+
+ <br>
+
+   <div class="slider">
+    <div class="slides" id="slides">
+    <img src="FOTO.jpg" alt="gambar 1">
+    <img src="FOTO.jpg" alt="gambar 2">
+    <img src="FOTO.jpg" alt=" gambar 3">
+    </div>
+  </div>
+
+  <div class="nav">
+    <button onclick="moveSlide(0)">1</button>
+    <button onclick="moveSlide(1)">2</button>
+    <button onclick="moveSlide(2)">3</button>
+  </div>
+
+ <div class="konten">
+<div class="container">
+    <article>
+      <h2>EVENT BULANAN</h2>
+      <p><em>INFO LEBIH LANJUT</em></p>
+      <p>ISI INFO</p>
+    </article>
+     <article>
+      <h2>DISKON</h2>
+    <p><em>INFO LEBIH LANJUT</em></p>
+      <p>ISI INFO</p>
+    </article>
+      <article>
+      <h2>PROMO NAIK HAJI</h2>
+      <p><em>INFO LEBIH LANJUT</em></p>
+      <p>ISI INFO</p>
+    </article>
+  </div>
+  </div>
+
+ <div class="footer">
+  <footer>
+    <p>&copy; WEBSITE PRIBADI SAYA | Dibuat oleh MUHAMMAD RIFQI</p>
+  </footer>
+  </div>
+
+    </body>
+
+     <script>
+    function moveSlide(index) {
+      const slides = document.getElementById("slides");
+      slides.style.transform = `translateX(${-236 * index}px)`;
+      slides.style.transition = "0.5s ease";
+    }
+  </script>
+
+</html>

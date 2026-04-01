@@ -1,0 +1,77 @@
+  body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #50c2f7;
+    }
+    header {
+      background: #0936ff;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    nav {
+      background: #333;
+      padding: 10px;
+      text-align: center;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    .container {
+      width: 1000px;
+      margin: 20px auto;
+      display: flex;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+    article {
+      flex: 0 0 calc(33% - 20px);
+      background: white;
+      padding: 5px;
+      border-radius: 8px;
+      box-shadow: 0px 2px 5px rgba(0,0,0,0.1);
+    }
+    article p {
+        font-size: small;
+    }
+    article h2 {
+      margin-top: 0;
+      color: #000000;
+    }
+    footer {
+      text-align: center;
+      padding: 15px;
+      background: #333;
+      color: white;
+      margin-top: 30px;
+    } 
+      .slider {
+      width: 236px;
+      height: 236px;
+      overflow: hidden;
+      margin: auto;
+      border-radius: 10px;
+    }
+    .slides {
+      display: flex;
+      width: 100%;
+    }
+    .slides img {
+      width: 100%;
+      object-fit: cover;
+    }
+    .nav {
+      text-align: center;
+      margin-top: 10px;
+    }
+    .nav button {
+      padding: 5px 10px;
+      margin: 0 5px;
+      cursor: pointer;
+    }
